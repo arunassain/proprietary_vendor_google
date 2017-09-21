@@ -1,4 +1,4 @@
-# Copyright (C) 2015 The CyanogenMod Project
+# Copyright (C) 2017 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -74,9 +74,8 @@ PRODUCT_COPY_FILES += \
     vendor/google/sprout/proprietary/lib/libaudiocustparam.so:system/lib/libaudiocustparam.so \
     vendor/google/sprout/proprietary/lib/libaudiodcrflt.so:system/lib/libaudiodcrflt.so \
     vendor/google/sprout/proprietary/lib/libaudiomtkdcremoval.so:system/lib/libaudiomtkdcremoval.so \
-    vendor/google/sprout/proprietary/lib/libaudiopolicymanagerdefault.so:system/lib/libaudiopolicymanagerdefault.so \
-    vendor/google/sprout/proprietary/lib/libaudiopolicymanagersprout.so:system/lib/libaudiopolicymanagersprout.so \
     vendor/google/sprout/proprietary/lib/libaudiosetting.so:system/lib/libaudiosetting.so \
+    vendor/google/sprout/proprietary/lib/libaudioflinger.so:system/lib/libaudioflinger.so \
     vendor/google/sprout/proprietary/lib/libbessound_hd_mtk.so:system/lib/libbessound_hd_mtk.so \
     vendor/google/sprout/proprietary/lib/libblisrc.so:system/lib/libblisrc.so \
     vendor/google/sprout/proprietary/lib/libblisrc32.so:system/lib/libblisrc32.so \
