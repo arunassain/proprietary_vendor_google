@@ -51,9 +51,9 @@ PRODUCT_COPY_FILES += \
     vendor/google/sprout/proprietary/etc/wifi/p2p_supplicant_overlay.conf:system/etc/wifi/p2p_supplicant_overlay.conf \
     vendor/google/sprout/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
     vendor/google/sprout/proprietary/etc/wifi/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf \
-    vendor/google/sprout/proprietary/lib/egl/libEGL_mali.so:system/lib/egl/libEGL_mali.so \
-    vendor/google/sprout/proprietary/lib/egl/libGLESv1_CM_mali.so:system/lib/egl/libGLESv1_CM_mali.so \
-    vendor/google/sprout/proprietary/lib/egl/libGLESv2_mali.so:system/lib/egl/libGLESv2_mali.so \
+    vendor/google/sprout/proprietary/vendor/lib/egl/libEGL_mali.so:system/vendor/lib/egl/libEGL_mali.so \
+    vendor/google/sprout/proprietary/vendor/lib/egl/libGLESv1_CM_mali.so:system/vendor/lib/egl/libGLESv1_CM_mali.so \
+    vendor/google/sprout/proprietary/vendor/lib/egl/libGLESv2_mali.so:system/vendor/lib/egl/libGLESv2_mali.so \
     vendor/google/sprout/proprietary/lib/hw/audio.primary.mt6582.so:system/lib/hw/audio.primary.mt6582.so \
     vendor/google/sprout/proprietary/lib/hw/camera.mt6582.so:system/lib/hw/camera.mt6582.so \
     vendor/google/sprout/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
