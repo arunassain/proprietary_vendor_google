@@ -48,6 +48,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/sprout/proprietary/etc/firmware/mt6627/mt6627_fm_v5_coeff.bin:system/etc/firmware/mt6627/mt6627_fm_v5_coeff.bin \
     vendor/google/sprout/proprietary/etc/firmware/mt6627/mt6627_fm_v5_patch.bin:system/etc/firmware/mt6627/mt6627_fm_v5_patch.bin \
     vendor/google/sprout/proprietary/etc/mtk_omx_core.cfg:system/etc/mtk_omx_core.cfg \
+    vendor/google/sprout/proprietary/etc/init/mediacodec.rc:system/etc/init/mediacodec.rc \
     vendor/google/sprout/proprietary/etc/wifi/p2p_supplicant_overlay.conf:system/etc/wifi/p2p_supplicant_overlay.conf \
     vendor/google/sprout/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
     vendor/google/sprout/proprietary/etc/wifi/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf \
@@ -69,6 +70,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/sprout/proprietary/lib/libMtkOmxCore.so:system/lib/libMtkOmxCore.so \
     vendor/google/sprout/proprietary/lib/libMtkOmxVdec.so:system/lib/libMtkOmxVdec.so \
     vendor/google/sprout/proprietary/lib/libMtkOmxVenc.so:system/lib/libMtkOmxVenc.so \
+    vendor/google/sprout/proprietary/lib/libaed.so:system/lib/libaed.so \
     vendor/google/sprout/proprietary/lib/libaudiocompensationfilter.so:system/lib/libaudiocompensationfilter.so \
     vendor/google/sprout/proprietary/lib/libaudiocomponentengine.so:system/lib/libaudiocomponentengine.so \
     vendor/google/sprout/proprietary/lib/libaudiocustparam.so:system/lib/libaudiocustparam.so \
@@ -151,11 +153,11 @@ PRODUCT_COPY_FILES += \
     vendor/google/sprout/proprietary/lib/libvcodecdrv.so:system/lib/libvcodecdrv.so \
     vendor/google/sprout/proprietary/lib/mtk-ril.so:system/lib/mtk-ril.so \
     vendor/google/sprout/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
-    vendor/google/sprout/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
-    vendor/google/sprout/proprietary/vendor/lib/libWVphoneAPI.so:system/vendor/lib/libWVphoneAPI.so \
-    vendor/google/sprout/proprietary/vendor/lib/libfrsdk.so:system/vendor/lib/libfrsdk.so \
-    vendor/google/sprout/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
-    vendor/google/sprout/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
+#   vendor/google/sprout/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
+#   vendor/google/sprout/proprietary/vendor/lib/libWVphoneAPI.so:system/vendor/lib/libWVphoneAPI.so \
+#   vendor/google/sprout/proprietary/vendor/lib/libfrsdk.so:system/vendor/lib/libfrsdk.so \
+#   vendor/google/sprout/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
+#   vendor/google/sprout/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/google/sprout/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
     vendor/google/sprout/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/google/sprout/proprietary/xbin/mnld:system/xbin/mnld
