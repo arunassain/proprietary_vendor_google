@@ -70,6 +70,16 @@ PRODUCT_COPY_FILES += \
     vendor/google/sprout/proprietary/lib/libMtkOmxCore.so:system/lib/libMtkOmxCore.so \
     vendor/google/sprout/proprietary/lib/libMtkOmxVdec.so:system/lib/libMtkOmxVdec.so \
     vendor/google/sprout/proprietary/lib/libMtkOmxVenc.so:system/lib/libMtkOmxVenc.so \
+    vendor/google/sprout/proprietary/lib/libMtkOmxAdpcmDec.so:system/lib/libMtkOmxAdpcmDec.so \
+    vendor/google/sprout/proprietary/lib/libMtkOmxAdpcmEnc.so:system/lib/libMtkOmxAdpcmEnc.so \
+    vendor/google/sprout/proprietary/lib/libMtkOmxAlacDec.so:system/lib/libMtkOmxAlacDec.so \
+    vendor/google/sprout/proprietary/lib/libMtkOmxApeDec.so:system/lib/libMtkOmxApeDec.so \
+    vendor/google/sprout/proprietary/lib/libMtkOmxFlacDec.so:system/lib/libMtkOmxFlacDec.so \
+    vendor/google/sprout/proprietary/lib/libMtkOmxG711Dec.so:system/lib/libMtkOmxG711Dec.so \
+    vendor/google/sprout/proprietary/lib/libMtkOmxGsmDec.so:system/lib/libMtkOmxGsmDec.so \
+    vendor/google/sprout/proprietary/lib/libMtkOmxMp3Dec.so:system/lib/libMtkOmxMp3Dec.so \
+    vendor/google/sprout/proprietary/lib/libMtkOmxRawDec.so:system/lib/libMtkOmxRawDec.so \
+    vendor/google/sprout/proprietary/lib/libMtkOmxVorbisEnc.so:system/lib/libMtkOmxVorbisEnc.so \
     vendor/google/sprout/proprietary/lib/libaed.so:system/lib/libaed.so \
     vendor/google/sprout/proprietary/lib/libaudiocompensationfilter.so:system/lib/libaudiocompensationfilter.so \
     vendor/google/sprout/proprietary/lib/libaudiocomponentengine.so:system/lib/libaudiocomponentengine.so \
